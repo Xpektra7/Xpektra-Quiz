@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "question":"What is the chemical symbol for Mercury?",
+        "options" : ["Hg","Na","Me","Mr"],
+        "answer": "Hg"
+    },
+    {
+        "id":2,
+        "question":"What is the capital of Ireland",
+        "options":["Dublin","Berlin","Lacashire","Republic of Ireland"],
+        "answer":"Dublin"
+    },
+    {
+        "id":3,
+        "question":"How many metals are in the periodic table?",
+        "options":[52,26,120,34],
+        "answer": 52
+    },
+    {
+        "id":4,
+        "question":"There are ___ planets in our solar system?",
+        "options":[7,9,6,8],
+        "answer":8
+    },
+    {
+        "id":5,
+        "question":"The next number in the sequence 1,5,14,30,... is?",
+        "options":[55,62,48,57],
+        "answer":55
+    },
+    {
+        "id":6,
+        "question":"How many months have 28 days?",
+        "options":["All but one","All","Five","One"],
+        "answer":"All"
+    },
+    {
+        "id":7,
+        "question":"How many ergs make 1 Joule?",
+        "options":[10000,10000000,10,0.01],
+        "answer":"10000000"
+    },
+    {
+        "id":8,
+        "question":"'Biot(Bi)' is the unit of?",
+        "options":["Illuminance","Heat","Current","Temperature"],
+        "answer":"Current" 
+    },
+    {
+        "id":9,
+        "question":"The average of the first 50 natural numbers is?",
+        "options":[50.0,25.0,12.25,25.5],
+        "answer":25.5
+    },
+    {
+        "id":10,
+        "question":"1 kg equals ___ Pound?",
+        "options":[1,2.2,2.5,4.5],
+        "answer":2.2
+    }
+]

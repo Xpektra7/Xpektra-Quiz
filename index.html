@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container front" id="front">
+        <div class="banner">
+            <h1>Xpektra Quiz</h1>
+            <p  id="questionCount"></p>
+            <button onclick="start()" style="background-color: rgb(0,89,255);color: white;padding: .5rem 1rem;border: none;border-radius: 5px;cursor: pointer;">Start Quiz</button>
+        </div>
+    </div>
+    <div class="container back" id="back">
+        <div class="result" id="0" name="bslide">
+            <h1 id="userPercent">80%</h1>
+            <div class="summary">
+                <div id="attempted"><h1>5</h1>Attempted</div>
+                <div id="unanswered"><h1>0</h1>Unanswered</div>
+                <div id="failed"><h1>1</h1>Failed</div>
+            </div>
+            <div class="actions">
+                <button onclick="restart()">Restart</button>
+                <button onclick="review()">Review</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
