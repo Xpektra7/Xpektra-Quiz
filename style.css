@@ -68,6 +68,7 @@ body{
     border-bottom-right-radius: 10px;
     display:flex;
     align-items:center;
+    gap:.2rem;
 
     &:hover{
         background-color: rgba(0, 89, 255,.1);
