@@ -14,7 +14,7 @@ let userAnswers = [];
 for (let index = 0; index < questionCount; index++) {
     userAnswers.push("");
 }
-
+let optionOrder = [0,3,1,2];
 function start(){
     index = 1;
     document.querySelector('.banner').style.display = "none";
@@ -28,6 +28,23 @@ function review(){
     return bindex;
 }
 
+function shuffle(array) {
+  let currentIndex = array.length;
+
+
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+}
+
+
 
 fetch("./question.json")
       .then(response => {
@@ -38,7 +55,7 @@ fetch("./question.json")
       })
       .then(data => {
         data.forEach(question => {
-            const optionOrder = [0,3,1,2];
+            shuffle(optionOrder);
             questionCount += 1;
             card.insertAdjacentHTML("beforeend",
                 `<div class="slide"  name="slide" id="${question.id}">
