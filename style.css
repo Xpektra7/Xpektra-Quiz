@@ -66,6 +66,8 @@ body{
     cursor: pointer;
     border-left: 4px solid rgb(128, 128, 128);
     border-bottom-right-radius: 10px;
+    display:flex;
+    align-items:center;
 
     &:hover{
         background-color: rgba(0, 89, 255,.1);
